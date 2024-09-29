@@ -1,0 +1,16 @@
+{
+  "name": "kpp-bms-hmit-9",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "build:css": "npx tailwindcss -i ./src/input.css -o ./src/output.css --minify"
+  },
+  "keywords": [],
+  "author": "KPP BMS HMIT Kelompok 9",
+  "license": "ISC",
+  "description": "Website Portfolio Kelompok 9",
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  }
+}
